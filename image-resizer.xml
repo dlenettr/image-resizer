@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dleplugin>
+	<name>MWS Image Resizer</name>
+	<description>Resimlerinizi anlık olarak boyutlandırarak önbelleğe alabilirsiniz ve kırpma işlemlerini kolayca yapabilirsiniz.</description>
+	<icon>engine/skins/images/imageresizer.png</icon>
+	<version>1.9</version>
+	<dleversion>13.0</dleversion>
+	<versioncompare>greater</versioncompare>
+	<mysqlinstall><![CDATA[]]></mysqlinstall>
+	<mysqlupgrade><![CDATA[]]></mysqlupgrade>
+	<mysqlenable><![CDATA[INSERT INTO {prefix}_admin_sections (name, icon, title, descr, allow_groups) VALUES ('imageresizer', 'engine/skins/images/imageresizer.png', 'MWS Image Resizer v1.9', 'Resimlerinizi anlık olarak boyutlandırarak önbelleğe alabilirsiniz ve kırpma işlemlerini kolayca yapabilirsiniz.', '1')]]></mysqlenable>
+	<mysqldisable><![CDATA[DELETE FROM {prefix}_admin_sections WHERE name = 'imageresizer';]]></mysqldisable>
+	<mysqldelete><![CDATA[DELETE FROM {prefix}_admin_sections WHERE name = 'imageresizer';]]></mysqldelete>
+	<file name="engine/modules/main.php">
+		<operation action="before">
+			<searchcode><![CDATA[echo $tpl->result['main'];]]></searchcode>
+			<replacecode><![CDATA[// Image Resizer - start
+require_once ENGINE_DIR . "/modules/image.resizer.php";
+$tpl->result['main'] = preg_replace_callback( "#\{img:(.+?)\}#is", "image_urls", $tpl->result['main'] );
+$tpl->result['main'] = preg_replace_callback( "#\<img[^>]+\>#is", "image_resize", $tpl->result['main'] );
+// Image Resizer - end]]></replacecode>
+		</operation>
+	</file>
+</dleplugin>

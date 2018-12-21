@@ -1,0 +1,52 @@
+<?php
+
+$lang['iresizer_0'] = "Automatically image resizing module";
+$lang['iresizer_1'] = "Open module";
+$lang['iresizer_2'] = "You can switch module anytime";
+$lang['iresizer_3'] = "Site URL";
+$lang['iresizer_4'] = "Enter your site URL ends width slash, Example: http://site.com/";
+$lang['iresizer_5'] = "Clear properties";
+$lang['iresizer_6'] = "If image resizing is fail, clear resize properties";
+$lang['iresizer_7'] = "Image file name source";
+$lang['iresizer_8'] = "Use alt or title attribute as image file name. Example: title, alt ( &lt;img src=&quot;...&quot; alt=&quot;Name&quot; title=&quot;Alternative Name&quot; /&gt; )";
+$lang['iresizer_9'] = "Add width and height values";
+$lang['iresizer_10'] = "You can add width and height values to html automatically, module can determine real width and height values of image.";
+$lang['iresizer_11'] = "Default setting of &quot;Force defined width and height&quot;";
+$lang['iresizer_12'] = "If resize property not contain f parameter, module'll use this setting as default";
+$lang['iresizer_13'] = "Download external images";
+$lang['iresizer_14'] = "If resize property contain d:1 parameter, external image file (hosted by foreign server) will be downloaded automatically.";
+$lang['iresizer_15'] = "Select hashing algorithm";
+$lang['iresizer_16'] = "All hashing algorithms supported by your server, you can select anything. This text will be added to image urls so short hash texts are good option for SEO";
+$lang['iresizer_17'] = "Activate subdomain/CDN uploads";
+$lang['iresizer_18'] = "You can use subdomain uploads instead of your main domain. This option needed for moving all images to antoher server in the future.";
+$lang['iresizer_19'] = "Site path";
+$lang['iresizer_20'] = "If your site in a subdirectory, you should enter this directory name here. Otherwise images will have wrong urls";
+$lang['iresizer_21'] = "Path for custom URL";
+$lang['iresizer_22'] = "This setting for rewriting urls of images, If you need, you can replace all urls width your custom and shorten url. Before activating this setting, add this line to your .htaccess file, below of RewriteEngine On line.<br /><pre>RewriteRule ^<span id=\"custom_path_text\">%text%</span>/([A-Za-z0-9\-]+)\.([a-z]+)&dollar; uploads/cache/&dollar;1.&dollar;2 [L]</pre>";
+$lang['iresizer_23'] = "Subdomain is local?";
+$lang['iresizer_24'] = "<b>Active:</b> Local server &nbsp; X &nbsp; <b>Passive:</b> Remote server";
+$lang['iresizer_25'] = "Server title";
+$lang['iresizer_26'] = "Please enter different server title for each server. Example: server1";
+$lang['iresizer_27'] = "Access URL";
+$lang['iresizer_28'] = "Define URL of server. Enter only main URL ends with slash. Example: http://server.site.com/";
+$lang['iresizer_29'] = "Full path of subdomain directory";
+$lang['iresizer_30'] = "Enter full path of subdomain directory. Example: /home/username/&lt;subdomain directory>/";
+$lang['iresizer_31'] = "Sub folder path of upload directory";
+$lang['iresizer_32'] = "Example: images/2016/ is equal to <br />/home/username/&lt;subdomain directory>/images/2016/";
+$lang['iresizer_33'] = "directory not writable or not exists. If not, please create manually as writable";
+$lang['iresizer_34'] = "Are you want to flush FTP cache?";
+$lang['iresizer_35'] = "Only image detail files will be deleted";
+$lang['iresizer_36'] = "Confirm";
+$lang['iresizer_37'] = "Path of subdomain directory";
+$lang['iresizer_38'] = "Fill for access url, then /home/username/ Example: public_html/";
+$lang['iresizer_39'] = "Information";
+$lang['iresizer_40'] = "% files were deleted";
+$lang['iresizer_41'] = "FTP Host";
+$lang['iresizer_42'] = "Example: server1.site.com";
+$lang['iresizer_43'] = "FTP User name";
+$lang['iresizer_44'] = "Example: user";
+$lang['iresizer_45'] = "FTP User password";
+$lang['iresizer_46'] = "Example: 123456 ( Don't use! &dollar; ' &quot; \\ )";
+$lang['iresizer_47'] = "Module Settings";
+
+?>

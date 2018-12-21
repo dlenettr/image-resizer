@@ -1,0 +1,52 @@
+<?php
+
+$lang['iresizer_0'] = "Otomatik resim boyutlandırma modülü";
+$lang['iresizer_1'] = "Modülü aç";
+$lang['iresizer_2'] = "Modülü istediğiniz zaman açıp kapatabilirsiniz";
+$lang['iresizer_3'] = "Sitenizin URL si";
+$lang['iresizer_4'] = "Sonu slaş ile bitecek şekilde sitenizin URL sini girin, Örnek: http://site.com/";
+$lang['iresizer_5'] = "Özellikleri temizle";
+$lang['iresizer_6'] = "Eğer resim boyutlandırma başarısız ise resize özelliğini kaynaktan sil";
+$lang['iresizer_7'] = "Resim dosya adı kaynağı";
+$lang['iresizer_8'] = "Alt veya title özelliğini resim adı olarak kullan. Örnek: title, alt ( &lt;img src=&quot;...&quot; alt=&quot;İsim&quot; title=&quot;Alternatif isim&quot; /&gt; )";
+$lang['iresizer_9'] = "Genişlik ve yükseklik değerlerini ekle";
+$lang['iresizer_10'] = "Genişlik ve yükseklik değerlerini html'e otomatik olarak ekletebilirsiniz, modül resmin gerçek genişlik ve yükseklik değerlerini tespit edebilir.";
+$lang['iresizer_11'] = "&quot;Belirtilmiş genişlik ve yükseklik değerlerine zorla&quot; varsayılan değeri";
+$lang['iresizer_12'] = "Eğer resize özelliği f parametresi içermiyorsa, modül bu ayarı varsayılan olarak kullanacaktır.";
+$lang['iresizer_13'] = "Dış bağlantılı resimleri indir";
+$lang['iresizer_14'] = "Eğer resize özelliği d:1 parametresini içeriyorsa, resim dosyası (başka bir sunucuda barındırılan) otomatik olarak indirilecektir.";
+$lang['iresizer_15'] = "Hash algoritması";
+$lang['iresizer_16'] = "Sunucunuz tarafından desteklenen tüm hash alogritmalarından istediğinizi seçebilirsiniz. Bu yazı resmin sonuna eklenecektir, bu nedenle kısa olması SEO açısından iyi bir seçim olacaktır";
+$lang['iresizer_17'] = "Subdomain/CDN yüklemelerini aktifleştir";
+$lang['iresizer_18'] = "Ana domaininiz yerine subdomain yüklemelerini aktifleştirebilirsiniz. Bu seçenek, ilerde resimlerinizi başka bir sunucuya taşımak isterseniz lazım olacaktır.";
+$lang['iresizer_19'] = "Site dizini";
+$lang['iresizer_20'] = "Eğer siteniz bir alt dizinde ise, bu dizini buraya girmelisiniz. Aksi halde resim URL leri hatalı olacaktır";
+$lang['iresizer_21'] = "Özel URL için dizin";
+$lang['iresizer_22'] = "Bu ayar resim URL leri içindir, Eğer isterseniz resim URL lerini kendinize özel ve kısa URL ler ile değiştirebilirsiniz. Bu ayarı aktifleştirmeden önce, alttaki kodu .htaccess dosyanıza ekleyin, RewriteEngine On satırın altına.<br /><pre>RewriteRule ^<span id=\"custom_path_text\">%text%</span>/([A-Za-z0-9\-]+)\.([a-z]+)&dollar; uploads/cache/&dollar;1.&dollar;2 [L]</pre>";
+$lang['iresizer_23'] = "Subdomain yerel sunucuda mı?";
+$lang['iresizer_24'] = "<b>Aktif:</b> Yerel sunucu &nbsp; X &nbsp; <b>Pasif:</b> Uzak sunucu";
+$lang['iresizer_25'] = "Sunucu başlğı";
+$lang['iresizer_26'] = "Lütfen her sunucu için farklı bir başlık girin. Örnek: sunucu1";
+$lang['iresizer_27'] = "Erişim URL si";
+$lang['iresizer_28'] = "Sunucu URL sini girin. Sadece ana dizin URL sini slaş ile bitecek şekilde girin. Örnek: http://server.site.com/";
+$lang['iresizer_29'] = "Subdomain dizinin adresi";
+$lang['iresizer_30'] = "Subdomain dizinin tam adresini girin. Örnek: /home/username/&lt;subdomain dizini>/";
+$lang['iresizer_31'] = "Yükleme dizinin alt klasörü";
+$lang['iresizer_32'] = "Örnek: images/2016/ eşittir <br />/home/username/&lt;subdomain dizini>/images/2016/";
+$lang['iresizer_33'] = "dizin yazılabilir değil veya yok. Eğer yoksa, lütfen yazılabilir olarak elle oluşturun";
+$lang['iresizer_34'] = "FTP önbelleğini temizlemek istiyor musunuz?";
+$lang['iresizer_35'] = "Sadece resim bilgilerini içeren dosyalar silinecektir.";
+$lang['iresizer_36'] = "Onay";
+$lang['iresizer_37'] = "Subdomain dizinin adresi";
+$lang['iresizer_38'] = "Erişim URL si için tamamlayın, /home/username/ sonrası. Örnek: public_html/";
+$lang['iresizer_39'] = "Bilgi";
+$lang['iresizer_40'] = "% dosya silindi";
+$lang['iresizer_41'] = "FTP Sunucusu";
+$lang['iresizer_42'] = "Örnek: server1.site.com";
+$lang['iresizer_43'] = "FTP Kullanıcı adı";
+$lang['iresizer_44'] = "Örnek: user";
+$lang['iresizer_45'] = "FTP Kullanıcı şifresi";
+$lang['iresizer_46'] = "Örnek: 123456 ( &dollar; ' &quot; \\ karakterlerini kullanmayın! )";
+$lang['iresizer_47'] = "Modül Ayarları";
+
+?>
